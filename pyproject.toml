@@ -1,0 +1,18 @@
+[project]
+name = "qolib"
+version = "0.1.0"
+description = ""
+authors = [
+    { name = "Andronov Vladislav", email = "hgg0896@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "rich (>=14.2.0,<15.0.0)",
+    "typer (>=0.20.0,<0.21.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
