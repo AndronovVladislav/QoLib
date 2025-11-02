@@ -1,10 +1,5 @@
-from string import ascii_uppercase
-
 from rich import box
 from rich.table import Table
-
-PREFERRED_LINE_LEN = 13
-ENGLISH_ALPHABET = ascii_uppercase
 
 
 class Alphabet:

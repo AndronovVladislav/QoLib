@@ -3,7 +3,7 @@ from string import ascii_uppercase
 from rich.console import Console
 from typer import Typer
 
-from src.alphabet import Alphabet
+from src.modules.alphabet import Alphabet
 
 app = Typer()
 console = Console()
