@@ -1,0 +1,9 @@
+from string import ascii_uppercase
+
+from src.core import app, console
+from src.modules.alphabet import Alphabet
+
+
+@app.command()
+def eng_alphabet() -> None:
+    console.print(Alphabet('English', ascii_uppercase, 13), justify='center')
