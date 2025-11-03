@@ -3,7 +3,8 @@
 Contains a lot of useful (assumingly) scripts.
 
 ## Facilities
-`alphabet` – prints english alphabet.
+- `alphabet` – print english alphabet
+- `ports` – display processes using ports or kill process using port
 
 
 ## Requirements
